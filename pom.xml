@@ -4,6 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
     <version>1.0.0</version>
     <name>Prova_220257</name>
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.12.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
     <groupId>it.unical.demacs</groupId>
     <artifactId>Batt_A</artifactId>
 
