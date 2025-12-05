@@ -27,4 +27,12 @@ public class AlgorithmTest {
         assertTrue(algo.isPalindrome(""));
         assertTrue(algo.isPalindrome("a"));
     }
+
+    @Test
+    public void insertValidPalindromeString(){
+        assertTrue(algo.isPalindrome("A man, a plan, a canal: Panama"));
+        assertTrue(algo.isPalindrome("No 'x' in Nixon"));
+    }
+
+
 }
