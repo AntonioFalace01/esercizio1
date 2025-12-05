@@ -4,6 +4,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class AlgorithmTest {
 
@@ -19,5 +20,11 @@ public class AlgorithmTest {
         assertThrows(IllegalArgumentException.class, () -> {
             algo.isPalindrome(null);
         });
+    }
+
+    @Test
+    public void insertInvalidLenghtString(){
+        assertTrue(algo.isPalindrome(""));
+        assertTrue(algo.isPalindrome("a"));
     }
 }
